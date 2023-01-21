@@ -15,7 +15,7 @@ namespace ChristmasWithTypes
             xmas.Santa = "Kris Kringle";
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
-            string xmasPresents = new string[3] {"xbox", "phone", "Car"};
+            xmas.Presents = new string[3] { "xbox", "phone", "Car"};
                   
             //TODO Set the TreeHeight to 10
             xmas.TreeHeight = 10;
@@ -24,7 +24,7 @@ namespace ChristmasWithTypes
             Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
             Console.WriteLine("Here are the presents we would like:");
 
-            foreach (var present in xmasPresents)
+            foreach (var present in xmas.Presents)
             {
                 Console.WriteLine($"    {present}");
             }
